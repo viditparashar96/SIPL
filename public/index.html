@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BADWAR MAOUGANJ</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
     rel="stylesheet"
 />
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+<link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+
+
 <link rel="icon" href="../favicon_io/favicon.ico" type="image/x-icon">
+
+
+
 
 </head>
 
@@ -43,8 +52,10 @@
     <div class="absolute  text-[#fff] w-full h-full mx-auto p-4 z-40">
         <!-- Upper Part -->
         <div class=" w-full h-[70%] border-b border-border flex items-center justify-between">
-            <img src="images/logo.jpg" class="w-[60px] h-[60px] md:w-[100px] md:h-[100px]" alt="">
-            
+            <a href="./index.html">
+
+                <img src="images/logo.jpg"  class="w-[60px] h-[60px] md:w-[100px] md:h-[100px]"alt="">
+            </a>            
             <!-- Side div -->
             <div class=" hidden md:flex items-center gap-2">
                 <!-- Map -->
@@ -92,7 +103,7 @@
             </div>
 
             <div>
-                <i class="ri-search-line"></i>
+                
             </div>
         </div>
 
@@ -103,7 +114,7 @@
 <!-- End of Nav bar -->
 
     <!-- Hero Section -->
-    <section class="w-full h-[500px]  mx-auto">
+    <!-- <section class="w-full h-[500px]  mx-auto">
         <div class=" w-10/12 h-full  mx-auto p-4">
             <div class=" w-full h-full  flex items-center justify-between">
                 <div class=" w-full md:w-[50%] h-full flex flex-col justify-center">
@@ -124,7 +135,79 @@ PVT LTD is presently one of the largest private sector company having valuable p
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+    
+    <!-- Swiper -->
+    <section class="hero-slider hero-style ">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide">
+                <div class="slide-inner slide-bg-image relative" data-background="https://images.unsplash.com/photo-1516216628859-9bccecab13ca?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                  <div class="overlay absolute w-full h-full bg-[#00000066]">
+                      
+                  </div>
+                  <div class="container">
+                    <div data-swiper-parallax="300" class="slide-title">
+                      <h2>BADWAR MAOUGANJ ROAD PROJECT
+                          PVT LTD
+                          </h2>
+                    </div>
+                    <div data-swiper-parallax="400" class="slide-text">
+                      <p>Want To Work With Us?</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div data-swiper-parallax="500" class="slide-btns">
+                        <a href="./Contact.html" class="theme-btn-s2">Contact Us</a>
+                        <a href="./About.html" class="theme-btn-s3"><i class="fas fa-chevron-circle-right"></i> Get Info</a>
+                      </div>
+                   
+                  </div>
+                </div>
+                <!-- end slide-inner -->
+              </div>
+
+
+            <div class="swiper-slide">
+              <div class="slide-inner slide-bg-image relative" data-background="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <div class="overlay absolute w-full h-full bg-[#00000066]">
+                    
+                </div>
+
+                <div class="container">
+                  <div data-swiper-parallax="300" class="slide-title">
+                    <h2>WE BUILD
+      <span>DIFFERENT</span></h2>
+                  </div>
+                  <div data-swiper-parallax="400" class="slide-text">
+                    <p> Want to see Our Works?</p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div data-swiper-parallax="500" class="slide-btns">
+                    <a href="./Projects.html" class="theme-btn-s2">Our Projects</a>
+                    <a href="./About.html" class="theme-btn-s3"><i class="fas fa-chevron-circle-right"></i> Get Info</a>
+                  </div>
+                  
+                </div>
+              </div>
+              <!-- end slide-inner -->
+            </div>
+            <!-- end swiper-slide -->
+      
+            <!-- end swiper-slide -->
+          </div>
+          <!-- end swiper-wrapper -->
+      
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+      
+
+
+    
     <!-- End of Hero Section -->
 
     <!-- About Section -->
@@ -797,7 +880,8 @@ Jabalpur, Madhya Pradesh, 482001
     <!-- End Footer Section -->
 
 </div>
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
 <script>
     const hamburger = document.querySelector('.hamburger');
     const sideMenu = document.querySelector('.side-menu');
@@ -810,6 +894,75 @@ Jabalpur, Madhya Pradesh, 482001
     close.addEventListener('click', () => {
         sideMenu.style.transform = 'translateX(-100%)';
     })
+
+    // HERO SLIDER
+    var menu = [];
+    jQuery('.swiper-slide').each( function(index){
+        menu.push( jQuery(this).find('.slide-inner').attr("data-text") );
+    });
+    var interleaveOffset = 0.5;
+    var swiperOptions = {
+        loop: true,
+        speed: 1000,
+        parallax: true,
+        autoplay: {
+            delay: 6500,
+            disableOnInteraction: false,
+        },
+        watchSlidesProgress: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        on: {
+            progress: function() {
+                var swiper = this;
+                for (var i = 0; i < swiper.slides.length; i++) {
+                    var slideProgress = swiper.slides[i].progress;
+                    var innerOffset = swiper.width * interleaveOffset;
+                    var innerTranslate = slideProgress * innerOffset;
+                    swiper.slides[i].querySelector(".slide-inner").style.transform =
+                    "translate3d(" + innerTranslate + "px, 0, 0)";
+                }      
+            },
+
+            touchStart: function() {
+              var swiper = this;
+              for (var i = 0; i < swiper.slides.length; i++) {
+                swiper.slides[i].style.transition = "";
+              }
+            },
+
+            setTransition: function(speed) {
+                var swiper = this;
+                for (var i = 0; i < swiper.slides.length; i++) {
+                    swiper.slides[i].style.transition = speed + "ms";
+                    swiper.slides[i].querySelector(".slide-inner").style.transition =
+                    speed + "ms";
+                }
+            }
+        }
+    };
+
+    var swiper = new Swiper(".swiper-container", swiperOptions);
+
+    // DATA BACKGROUND IMAGE
+    var sliderBgSetting = $(".slide-bg-image");
+    sliderBgSetting.each(function(indx){
+        if ($(this).attr("data-background")){
+            $(this).css("background-image", "url(" + $(this).data("background") + ")");
+        }
+    });
+
+
+
+
 
 </script>
 
