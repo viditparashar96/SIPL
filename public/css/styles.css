@@ -663,6 +663,10 @@ video {
   margin-top: 50px;
 }
 
+.mt-\[51px\] {
+  margin-top: 51px;
+}
+
 .block {
   display: block;
 }
@@ -1083,6 +1087,10 @@ video {
   border-color: rgb(1 71 127 / var(--tw-border-opacity));
 }
 
+.bg-\[\#00000066\] {
+  background-color: #00000066;
+}
+
 .bg-\[\#000000a2\] {
   background-color: #000000a2;
 }
@@ -1129,14 +1137,6 @@ video {
 .bg-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(1 71 127 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#000000a7\] {
-  background-color: #000000a7;
-}
-
-.bg-\[\#00000066\] {
-  background-color: #00000066;
 }
 
 .bg-\[url\(https\:\/\/beoharibansuklipathwayspvtltd\.com\/wp-content\/uploads\/2023\/09\/IMG-20230911-WA0048\.jpg\?id\=12364\)\] {
@@ -1294,10 +1294,6 @@ video {
   text-transform: uppercase;
 }
 
-.capitalize {
-  text-transform: capitalize;
-}
-
 .leading-\[5vw\] {
   line-height: 5vw;
 }
@@ -1325,10 +1321,6 @@ video {
 .text-secondary {
   --tw-text-opacity: 1;
   color: rgb(1 71 127 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .opacity-0 {
