@@ -1139,10 +1139,6 @@ video {
   background-color: rgb(1 71 127 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(https\:\/\/beoharibansuklipathwayspvtltd\.com\/wp-content\/uploads\/2023\/09\/IMG-20230911-WA0048\.jpg\?id\=12364\)\] {
-  background-image: url(https://beoharibansuklipathwayspvtltd.com/wp-content/uploads/2023/09/IMG-20230911-WA0048.jpg?id=12364);
-}
-
 .bg-\[url\(https\:\/\/beoharibansuklipathwayspvtltd\.com\/wp-content\/uploads\/2023\/09\/png-transparent-landscape-graphy-of-brown-mountain-ranges-iceland-4k-resolution-desktop-ultra-high-definition-television-road-cloud-landscape-computer-wallpaper\.png\)\] {
   background-image: url(https://beoharibansuklipathwayspvtltd.com/wp-content/uploads/2023/09/png-transparent-landscape-graphy-of-brown-mountain-ranges-iceland-4k-resolution-desktop-ultra-high-definition-television-road-cloud-landscape-computer-wallpaper.png);
 }
@@ -1297,6 +1293,10 @@ video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .leading-\[5vw\] {
